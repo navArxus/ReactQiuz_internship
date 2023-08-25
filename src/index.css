@@ -1,0 +1,21 @@
+@font-face {
+  font-family: cera;
+  src: url(./Assets/Fontspring-DEMO-ceraroundpro-regular.otf);
+}
+* {
+  font-family: cera;
+}
+
+body {
+  margin: 0;
+  font-family: cera;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f0f1f3;
+  margin: 0%;
+  padding: 0%;
+}
+
+code {
+  font-family: cera;
+}

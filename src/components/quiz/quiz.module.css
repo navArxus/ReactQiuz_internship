@@ -1,0 +1,26 @@
+.quiz_container {
+    width: 80vw;
+    height: 80vh;
+    border: 5px solid #183153;
+    border-radius: 5px;
+    margin: auto;
+    margin-top:10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ALLquestion {
+    width: 20%;
+    height: 100%;
+}
+
+.question {
+    width: 60%;
+    height: 100%;
+    border-left: 5px solid #183153;
+    border-right: 5px solid #183153;
+}
+.progress {
+    width: 20%;
+    height: 100%;
+}

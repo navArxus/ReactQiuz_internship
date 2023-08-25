@@ -1,0 +1,8 @@
+.Backdrop {
+    background-color: rgba(0, 0, 0, 0.649);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    backdrop-filter: blur(3px);
+    z-index: 101;
+}

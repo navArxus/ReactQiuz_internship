@@ -1,0 +1,76 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 60px;
+    height: 60px;
+}
+
+.nav_left_search {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 2px solid #183153;
+    background-color: white;
+    padding: 2px 2px 2px 4px;
+    border-radius: 5px;
+}
+
+.nav_left_search input {
+    border: 0px solid black;
+    width: 100%;
+}
+
+.nav_left_search input[type=text]:focus {
+    outline: 0px solid black;
+    /* oranges! yey */
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: fit-content;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 100%;
+}
+.nav_right button {
+    width: 30%;
+    height: 50%;
+    border-radius: 5px;
+    padding: 2px;
+    border: 2px solid #183153;
+    border-bottom: 4px solid #183153;
+    position: relative;
+    background: transparent;
+    overflow: hidden;
+}
+.nav_right button::before {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    z-index: -99;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffd43b;
+    transform: translateX(-100%);
+    transition: ease-in-out 0.4s;
+}
+.nav_right button:hover::before {
+    transform: translateX(0%);
+
+}
+.nav_right button:active {
+    border-bottom: 2px solid #183153;
+}
