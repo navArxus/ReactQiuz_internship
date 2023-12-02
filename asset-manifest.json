@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ReactQiuz_internship/static/css/main.8c290b3f.css",
+    "main.js": "/ReactQiuz_internship/static/js/main.3c389521.js",
+    "static/js/787.9e90ff23.chunk.js": "/ReactQiuz_internship/static/js/787.9e90ff23.chunk.js",
+    "static/media/Fontspring-DEMO-ceraroundpro-regular.otf": "/ReactQiuz_internship/static/media/Fontspring-DEMO-ceraroundpro-regular.5999e8fd115630c2229e.otf",
+    "index.html": "/ReactQiuz_internship/index.html",
+    "main.8c290b3f.css.map": "/ReactQiuz_internship/static/css/main.8c290b3f.css.map",
+    "main.3c389521.js.map": "/ReactQiuz_internship/static/js/main.3c389521.js.map",
+    "787.9e90ff23.chunk.js.map": "/ReactQiuz_internship/static/js/787.9e90ff23.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c290b3f.css",
+    "static/js/main.3c389521.js"
+  ]
+}
